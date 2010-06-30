@@ -16,7 +16,7 @@ class LiftProject(info: ProjectInfo) extends DefaultWebProject(info) {
     "net.liftweb" % "lift-wizard" % liftVersion % "compile->default",
     "org.mortbay.jetty" % "jetty" % "6.1.22" % "test->default",
     "junit" % "junit" % "4.5" % "test->default",
-    "org.scala-tools.testing" % "specs_2.8.0.RC3" % "1.6.5-SNAPSHOT" % "test->default",
+    "org.scala-tools.testing" % "specs_2.8.0.RC6" % "1.6.5-SNAPSHOT" % "test->default",
     "com.h2database" % "h2" % "1.2.121"
   ) ++ super.libraryDependencies
 }
