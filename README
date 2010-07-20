@@ -2,6 +2,9 @@ Install Java, Simple Build Tool, and Git
 
 Clone this repository with:
 
+git clone git://github.com/ghostm/lift_sbt_prototype.git
+
+Or for Scala 2.7.7 and Lift 2.0 use the repo:
 git clone git://github.com/dpp/lift_sbt_prototype.git
 
 Then cd into lift_sbt_prototype and type:
